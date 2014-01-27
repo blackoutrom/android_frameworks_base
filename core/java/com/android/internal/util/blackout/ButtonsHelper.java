@@ -263,4 +263,15 @@ public class ButtonsHelper {
         return uri;
     }
 
+    private static int getButtonsSystemIcon(Resources systemUiResources, String clickAction) {
+        int resId = -1;
+        if (clickAction.equals(ButtonsConstants.ACTION_THEME_SWITCH)) {
+            resId = systemUiResources.getIdentifier(
+                        SYSTEMUI_METADATA_NAME + ":drawable/ic_sysbar_theme_switch", null, null);
+        } else {
+            resId = systemUiResources.getIdentifier(
+                        SYSTEMUI_METADATA_NAME + ":drawable/ic_sysbar_null", null, null);
+        }
+        return resId;
+    }
 }

@@ -40,4 +40,8 @@
     <string name="halo_signal_bars_2">TWO BARS</string>	
     <string name="halo_signal_bars_1">ONE BAR</string>	
     <string name="halo_signal_bars_none">NO BARS</string>
+
+    <!-- TRDS QSTile -->
+    <string name="quick_settings_theme_switch_dark">Dark theme</string>
+    <string name="quick_settings_theme_switch_light">Light theme</string>
 </resources>
